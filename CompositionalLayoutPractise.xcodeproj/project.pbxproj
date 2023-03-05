@@ -13,6 +13,7 @@
 		39C469B229AB773100B23128 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C469B029AB773100B23128 /* Main.storyboard */; };
 		39C469B429AB773300B23128 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 39C469B329AB773300B23128 /* Assets.xcassets */; };
 		39C469B729AB773300B23128 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 39C469B529AB773300B23128 /* LaunchScreen.storyboard */; };
+		39C469BF29AB7CB900B23128 /* MyCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 39C469BE29AB7CB900B23128 /* MyCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -24,6 +25,7 @@
 		39C469B329AB773300B23128 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		39C469B629AB773300B23128 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		39C469B829AB773300B23128 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		39C469BE29AB7CB900B23128 /* MyCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MyCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -56,6 +58,7 @@
 		39C469A929AB773100B23128 /* CompositionalLayoutPractise */ = {
 			isa = PBXGroup;
 			children = (
+				39C469BE29AB7CB900B23128 /* MyCollectionViewCell.swift */,
 				39C469AA29AB773100B23128 /* AppDelegate.swift */,
 				39C469AC29AB773100B23128 /* SceneDelegate.swift */,
 				39C469AE29AB773100B23128 /* ViewController.swift */,
@@ -140,6 +143,7 @@
 			files = (
 				39C469AF29AB773100B23128 /* ViewController.swift in Sources */,
 				39C469AB29AB773100B23128 /* AppDelegate.swift in Sources */,
+				39C469BF29AB7CB900B23128 /* MyCollectionViewCell.swift in Sources */,
 				39C469AD29AB773100B23128 /* SceneDelegate.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
